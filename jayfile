@@ -1,0 +1,4 @@
+FROM ubuntu
+RUN echo "jayraj" > /tmp/xyzfile
+RUN apt update -y
+RUN apt install apache2 -y
